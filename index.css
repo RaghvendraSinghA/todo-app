@@ -1,0 +1,129 @@
+/* background-color:rgb(13, 13, 35); */
+
+
+
+.header{
+    height:5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.header{
+    padding-left: 11vw;
+    padding-right: 11vw;
+    background-color:rgb(13, 13, 35);
+}
+
+.header .navbar{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+
+.header .navbar{
+    
+}
+
+.header .navbar .logo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.header .navbar .logo{
+    font-size:4rem;
+    font-family:Helvetica;
+    font-weight:bold;
+    color:white;
+    white-space:nowrap;
+}
+
+
+
+
+/* input section */
+
+.input-section{
+    width:100%;
+}
+
+
+.input-section{
+    padding-left:11vw;
+    padding-right:11vw;
+    padding-top:5rem;
+}
+
+
+.input-section .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.input-section .container{
+    
+}
+
+.input-section .container .todo-input-box{
+    width:80%;
+    height:3rem;
+}
+
+.input-section .container .todo-input-box{
+    padding-left:0.625rem;
+    font-size:1.8rem;
+    /* border-radius:20px; */
+}
+
+
+
+
+
+
+/* checklist-section */
+
+
+.checklist{
+    display:flex;
+    flex-direction:column;
+    gap:0.625rem;
+}
+
+.checklist{
+    padding-top:2rem;
+    padding-left:11vw;
+    padding-right:11vw;
+}
+
+
+.checklist .container{
+    height:3rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.checklist .container{
+    border:1px solid rgb(223, 221, 221);
+}
+
+.checklist .container .btn{
+    height:2.5rem;
+    width:2.5rem;
+}
+
+
+.checklist .container .btn{
+    font-size:2rem;
+}
+
+
+.checklist .container .task{
+    font-size:1.2rem;
+    font-family:Helvetica;
+    padding-left:0.625rem;
+    font-weight:100;
+}
