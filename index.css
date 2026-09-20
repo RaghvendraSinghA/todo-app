@@ -127,3 +127,17 @@
     padding-left:0.625rem;
     font-weight:100;
 }
+
+
+
+
+@media screen and (max-width:767px){
+    .todo-add-btn{
+        height:50px;
+        border-radius:10px;
+    }
+
+    .header .navbar .logo{
+        font-size:2.5rem;
+    }
+}
